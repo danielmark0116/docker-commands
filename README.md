@@ -1,4 +1,5 @@
 # docker-commands
+## GENERAL
 
 ### CONTAINER LIST
 
@@ -64,4 +65,14 @@ you can map a given folder on your machine to the file system of the container
 ```
 docker -v PATHinYOURfileSYSTEM:WHATpathINcontainerTOmap NAME
 ```
+
+### LOGGING
+
+```
+docker logs NAME
+```
+
+## ENVIRONMENTAL VARIABLES
+
+###### to be added
 
