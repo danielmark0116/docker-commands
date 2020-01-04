@@ -74,5 +74,10 @@ docker logs NAME
 
 ## ENVIRONMENTAL VARIABLES
 
-###### to be added
+### RUN WITH GIVEN ENV
 
+```
+docker run -e VARNAME=value NAME
+```
+
+If you run container with custom ENVs, you can then inspect them with a `docker inspect NAME` command
