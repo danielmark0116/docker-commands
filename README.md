@@ -2,12 +2,12 @@
 
 ### CONTAINER LIST
 
-`docker ps`
-`docker ps -a`
+```docker ps```
+```docker ps -a```
 
 ### CONTAINER REMOVE
 
-`docker rm ID or NAME`
+```docker rm ID or NAME```
 
 ### THOROUGH CONTAINER INSPECTION
 
@@ -17,33 +17,33 @@ docker inspect NAME/ID
 
 ### IMAGES LiST
 
-`docker images`
-`docker images -a`
+```docker images```
+```docker images -a```
 
 ### IMAGE DELETE
 ###### first delete all depended containers
 
-`docker rmi NAME`
+```docker rmi NAME```
 
 ### PULLing THE DOKCER IMAGES
 
-`docker pull NAME OF IMAGE`
+```docker pull NAME OF IMAGE```
 
 ### RUNNING IMAGE
 
-`docker run NAME` - if image not present, will be downloaded
+```docker run NAME``` - if image not present, will be downloaded
 
 ### EXECUTING COMMANDs on running containers
 
-`docker exec CONTAINER COMMAND`
+```docker exec CONTAINER COMMAND```
 
 ### DETACH mode
 
-`docker run -d NAME` - running in the background
+```docker run -d NAME``` - running in the background
 
 You can also go back to (attach) to the container running in the background by:
 
-`docker attach NAMe or ID of COntainer`
+```docker attach NAMe or ID of COntainer```
 
 ### INTERACTIVE MODE
 
