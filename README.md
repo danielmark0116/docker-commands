@@ -9,6 +9,12 @@
 
 `docker rm ID or NAME`
 
+### THOROUGH CONTAINER INSPECTION
+
+```
+docker inspect NAME/ID
+```
+
 ### IMAGES LiST
 
 `docker images`
@@ -38,3 +44,23 @@
 You can also go back to (attach) to the container running in the background by:
 
 `docker attach NAMe or ID of COntainer`
+
+### INTERACTIVE MODE
+
+running in interactive mode - e.g. listening for console inputs
+```docker run -i NAME```
+
+with -it flag it also gives the console prompt
+```docker run -it NAME```
+
+### PORT MAPPING
+
+```docker -p HOSTYOUWANT:IMAGEPORT NAME```
+
+### VOLUME MAPPING
+you can map a given folder on your machine to the file system of the container
+
+```
+docker -v PATHinYOURfileSYSTEM:WHATpathINcontainerTOmap NAME
+```
+
