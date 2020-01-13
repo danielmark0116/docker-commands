@@ -81,3 +81,21 @@ docker run -e VARNAME=value NAME
 ```
 
 If you run container with custom ENVs, you can then inspect them with a `docker inspect NAME` command
+
+# DOCKER COMPOSE
+
+Deleting stuff from docker-compose and cleaning
+```
+docker-compose down -v --rmi all
+```
+
+Building from images and running / building form images
+```
+docker-compose up / build
+```
+
+Combining two compose files (eg. overwrite the primary one with the DEVELOPNET ONE
+(replace COMMAND with e.g. UP DOWN or BUILD)
+```
+docker-compose -f docker-compose.yml -f docker-compose.dev.yml COMMAND
+```
