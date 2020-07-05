@@ -84,6 +84,11 @@ If you run container with custom ENVs, you can then inspect them with a `docker 
 
 # DOCKER COMPOSE
 
+Stopping stuff from docker-compose
+```
+docker-compose stop
+```
+
 Deleting stuff from docker-compose and cleaning
 ```
 docker-compose down -v --rmi all
